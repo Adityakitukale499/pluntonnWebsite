@@ -1,0 +1,17 @@
+.upperSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.plutonnLogo{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.leftSide{
+    display: flex;
+}
+.heading{
+    margin-top: 18px;
+}

@@ -1,0 +1,38 @@
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.topContainer{
+    width: 60%;
+}
+.community{
+    display: flex;
+}
+.community div{
+    margin: 0 10px;
+}
+.members{
+    margin-top: 5px !important;
+}
+.join > i{
+    margin: 15px;
+}
+.fa-plus{
+    color: #f45046;
+}
+.btns{
+    width: 100%;
+    margin-top: 5px;
+}
+.btns button{
+    width: 50%;
+    border: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 17px;
+}
+.btns button:hover{
+    background-color: #e3e2e2;
+}
