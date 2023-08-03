@@ -15,7 +15,7 @@ const Posts = () => {
                         </div>
                     </div>
                 </div>
-                <div className='follow'><i class="fa-solid fa-plus"></i> Follow <i class="fa-solid fa-ellipsis-vertical" style={{ color: 'black' }}></i></div>
+                <div className='follow'><i className="fa-solid fa-plus"></i> Follow <i className="fa-solid fa-ellipsis-vertical" style={{ color: 'black' }}></i></div>
             </div>
             <p>🌟 Greetings, Members! 🌟</p>
             <p>🔥 Introducing our very first challenge! 🔥</p>
@@ -33,7 +33,7 @@ const Posts = () => {
                         </div>
                     </div>
                 </div>
-                <div className='follow'><i class="fa-solid fa-plus"></i> Follow <i class="fa-solid fa-ellipsis-vertical" style={{ color: 'black' }}></i></div>
+                <div className='follow'><i className="fa-solid fa-plus"></i> Follow <i className="fa-solid fa-ellipsis-vertical" style={{ color: 'black' }}></i></div>
             </div>
             <p>Hello everyone! </p>
             <p>
@@ -52,7 +52,7 @@ We're excited to share our first post in the community. </p>
                         </div>
                     </div>
                 </div>
-                <div className='follow'><i class="fa-solid fa-plus"></i> Follow <i class="fa-solid fa-ellipsis-vertical" style={{ color: 'black' }}></i></div>
+                <div className='follow'><i className="fa-solid fa-plus"></i> Follow <i className="fa-solid fa-ellipsis-vertical" style={{ color: 'black' }}></i></div>
             </div>
             <p>Hello everyone! </p>
             <p>

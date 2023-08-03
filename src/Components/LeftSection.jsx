@@ -14,13 +14,13 @@ const LeftSection = () => {
             <p style={{fontSize:'12px'}}>take your username now</p>
             <p style={{fontSize:'14px',marginTop:5}}>Click the login button and </p><p style={{fontSize:'14px',marginTop:5}}> make yourself a part of this</p> <p style={{fontSize:'14px',marginTop:5}}> wonderful community.</p>
         </div>
-        <button className='login'> <i class="fa-solid fa-right-to-bracket"></i> Login</button>
+        <button className='login'> <i className="fa-solid fa-right-to-bracket"></i> Login</button>
         <div className='navbar'>
             <ul>
-                <li><a href=""> <i class="fa-solid fa-house"></i> Home</a></li>
-                <li><a href=""> <i class="fa-solid fa-people-group"></i> Community</a></li>
-                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
-                <li><a href=""><i class="fa-brands fa-square-youtube"></i> Courses</a></li>
+                <li><a href=""> <i className="fa-solid fa-house"></i> Home</a></li>
+                <li><a href=""> <i className="fa-solid fa-people-group"></i> Community</a></li>
+                <li><a href=""><i className="fa-solid fa-magnifying-glass"></i> Search</a></li>
+                <li><a href=""><i className="fa-brands fa-square-youtube"></i> Courses</a></li>
             </ul>
         </div>
         <div className="followers">

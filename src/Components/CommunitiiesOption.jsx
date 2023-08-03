@@ -11,7 +11,7 @@ const CommunitiiesOption = () => {
         </div>
     </div>
     <div className='join'>
-        <i class="fa-solid fa-plus"></i>
+        <i className="fa-solid fa-plus"></i>
         <span> Join</span>
     </div>
 </div>

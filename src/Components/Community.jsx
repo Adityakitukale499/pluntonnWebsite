@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Announcements from './Announcements'
 import './MiddleSection.css'
 import Posts from './Posts'
 
-const Community = () => {
+const Community = ({setPage}) => {
+    const [post , setPost] = useState(true)
+    const POST =()=>{
+        setPage('- Post')
+        setPost(true)
+    }
+    const Announcements2 =()=>{
+        setPage('- Announcements')
+        setPost(false)
+    }
     return (
         <>
             <div className='topContainer'>
@@ -15,16 +25,17 @@ const Community = () => {
                         </div>
                     </div>
                     <div className='join'>
-                        <i class="fa-solid fa-plus"></i>
+                        <i className="fa-solid fa-plus"></i>
                         <span> Join</span>
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                        <i className="fa-solid fa-ellipsis-vertical"></i>
                     </div>
                 </div>
                 <div className='btns'>
-                    <button>Posts</button>
-                    <button>Announcements</button>
+                    <button onClick={POST}>Posts</button>
+                    <button onClick={Announcements2}>Announcements</button>
                 </div>
-                <Posts/>
+                {post?<Posts/>:<Announcements/>}
+                
             </div>
             
         </>

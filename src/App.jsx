@@ -6,13 +6,14 @@ import './App.css'
 import UpperSection from './Components/UpperSection'
 
 function App() {
+  const [page, setPage] = useState("")
 
   return (
     <>
-    <UpperSection/>
+    <UpperSection page={page}/>
       <div className='container'>
         <LeftSection />
-        <MiddleSection />
+        <MiddleSection setPage={setPage}/>
         <RightSection />
       </div>
     </>

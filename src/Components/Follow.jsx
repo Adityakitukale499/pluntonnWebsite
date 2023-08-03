@@ -12,7 +12,7 @@ const Follow = () => {
                 </div>
             </div>
         </div>
-        <span className='follow'><i class="fa-solid fa-plus"></i> Follow</span>
+        <span className='follow'><i className="fa-solid fa-plus"></i> Follow</span>
     </div>
   )
 }
