@@ -6,8 +6,9 @@ const MiddleSection = () => {
   return (
     <>
     {/* .communityContainer */}
+    <div className="communityContainer">
     <Community/>
-    
+    </div>
     </>
   )
 }
