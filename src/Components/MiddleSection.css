@@ -4,7 +4,8 @@
     justify-content: space-between;
 }
 .topContainer{
-    width: 60%;
+    width: 65vw;
+    padding: 25px;
 }
 .community{
     display: flex;
@@ -26,7 +27,7 @@
     margin-top: 5px;
 }
 .btns button{
-    width: 100%;
+    width: 50%;
     border: 0;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -36,11 +37,11 @@
 .btns button:hover{
     background-color: #e3e2e2;
 }
-.communityContainer{
-    width: 100%;
+.post{
+    width: 100vw;
     overflow-y: scroll;
-    height: 85vh;
+    height: 60vh !important;
 }
-.communityContainer::-webkit-scrollbar {
+.post::-webkit-scrollbar {
     display: none;
 }

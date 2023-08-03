@@ -1,9 +1,10 @@
 import React from 'react'
-
+import './MiddleSection.css'
 const Posts = () => {
     return (
         <>
-        <div>
+        <div className='post'>
+        <div >
             <div className='followContainer'>
                 <div>
                     <div className='list_item'>
@@ -18,7 +19,7 @@ const Posts = () => {
             </div>
             <p>🌟 Greetings, Members! 🌟</p>
             <p>🔥 Introducing our very first challenge! 🔥</p>
-            <small>read more</small>
+           <p> <small>read more</small></p>
             <img src="tree.png" alt="" />
             </div>
             <div>
@@ -37,8 +38,26 @@ const Posts = () => {
             <p>Hello everyone! </p>
             <p>
 We're excited to share our first post in the community. </p>
-            <small>read more</small>
+           <p> <small>read more</small></p>
             <img src="Javaanddsa.jpg"  />
+            </div>
+            <div>
+            <div className='followContainer'>
+                <div>
+                    <div className='list_item'>
+                        <img src="downloadavtar.jpeg" className='avtarProfile' />
+                        <div className="name">
+                            <p className='smalltext'>@ciperSchool</p>
+                            <p>CiperSch...</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='follow'><i class="fa-solid fa-plus"></i> Follow <i class="fa-solid fa-ellipsis-vertical" style={{ color: 'black' }}></i></div>
+            </div>
+            <p>Hello everyone! </p>
+            <p>
+We're excited to share our first post in the community. </p>
+            </div>
             </div>
         </>
     )

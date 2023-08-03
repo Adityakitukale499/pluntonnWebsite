@@ -5,7 +5,6 @@ import './MiddleSection.css'
 const MiddleSection = () => {
   return (
     <>
-    {/* .communityContainer */}
     <div className="communityContainer">
     <Community/>
     </div>
