@@ -18,3 +18,11 @@
     border-bottom-right-radius: 5px;
     color: #f45046;
 }
+.Logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.RightSection{
+    width: 300px;
+}
