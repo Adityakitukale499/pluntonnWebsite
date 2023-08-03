@@ -5,7 +5,7 @@ const RightSection = () => {
   return (
     <div className='RightSection'>
         <div className="search">
-        <input type="text" className='inp'/> <i className="fa-solid fa-magnifying-glass searchIcon"></i>
+        <input type="text" placeholder='Search' className='inp'/> <i className="fa-solid fa-magnifying-glass searchIcon"></i>
         </div>
         <p>Popular Communities</p>
         <CommunitiiesOption/>
